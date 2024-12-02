@@ -1,0 +1,26 @@
+.logo {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+}
+
+.logo-text span.terra {
+    color: var(--primary-color);
+}
+
+.logo-text span.zota {
+    color: var(--secondary-color);
+}
+
+.logo-text:hover span.terra,
+.logo-text:hover span.zota {
+    opacity: 0.9;
+}
